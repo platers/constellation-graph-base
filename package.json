@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "child-process": "^1.0.2",
-    "d3-force": "^3.0.0",
+    "d3-force": "^2.1.1",
     "d3-force-reuse": "^1.0.1",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21"
