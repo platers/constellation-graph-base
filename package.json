@@ -1,7 +1,7 @@
 {
-  "name": "multilevel-clustering",
+  "name": "constellation-graph",
   "version": "1.0.0",
-  "description": "A multi-level graph clustering algorithm.",
+  "description": "Components for visualizing graphs.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -26,12 +26,15 @@
   },
   "homepage": "https://github.com/platers/multilevel-clustering#readme",
   "devDependencies": {
+    "@types/d3-force": "^3.0.3",
     "@types/lodash": "^4.14.178",
     "@types/node": "^17.0.10",
     "typescript": "^4.5.5"
   },
   "dependencies": {
     "child-process": "^1.0.2",
+    "d3-force": "^3.0.0",
+    "d3-force-reuse": "^1.0.1",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21"
   }
